@@ -5,12 +5,12 @@ export function NavBar() {
    return (
       <AppBar position="static" className="nav-bar">
          <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" component="div" color="secondary" sx={{ flexGrow: 1 }}>
                Antonio Porter
             </Typography>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Studies</Button>
-            <Button color="inherit">Contact</Button>
+            <Button color="secondary">About</Button>
+            <Button color="secondary">Studies</Button>
+            <Button color="secondary">Contact</Button>
          </Toolbar>
       </AppBar>
    );
