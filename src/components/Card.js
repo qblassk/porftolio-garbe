@@ -14,27 +14,27 @@ const cardText = (props) => {
       <Grid item xs={5}>
          <Grid container direction="column" justifyContent="center" alignItems="center" spacing={3}>
             <Grid item>
-               <Typography variant="h6" align="center">
+               <Typography variant="h6" align="center" color="#b3b3b3">
                   {props.content.title}
                </Typography>
             </Grid>
             <Grid item>
-               <Typography variant="body1" align="center">
+               <Typography variant="body1" align="center" color="#b3b3b3">
                   <b>{props.content.subtitle}</b>
                </Typography>
             </Grid>
             <Grid item>
-               <Typography variant="body1" align="center">
+               <Typography variant="body1" align="center" color="#b3b3b3">
                   {props.content.descriptionA}
                </Typography>
             </Grid>
             <Grid item>
-               <Typography variant="body1" align="center">
-                  <b>{props.content.descriptionB}</b>
+               <Typography variant="body1" align="center" color="secondary">
+                  <i>{props.content.descriptionB}</i>
                </Typography>
             </Grid>
             <Grid item>
-               <Typography variant="body1" align="center">
+               <Typography variant="body1" align="center" color="#b3b3b3">
                   {props.content.descriptionC}
                </Typography>
             </Grid>
@@ -45,7 +45,7 @@ const cardText = (props) => {
 
 const ImgRight = (props) => {
    return (
-      <Grid container direction="row" justifyContent="center" alignItems="center">
+      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center">
          {cardText(props)}
          {cardImg(props)}
       </Grid>
@@ -54,7 +54,7 @@ const ImgRight = (props) => {
 
 const ImgLeft = (props) => {
    return (
-      <Grid container direction="row" justifyContent="center" alignItems="center">
+      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center">
          {cardImg(props)}
          {cardText(props)}
       </Grid>

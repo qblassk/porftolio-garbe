@@ -1,4 +1,9 @@
 img {
-   width: 20vw;
-   height: auto;
+   width: 50vw;
+}
+
+.grid-main {
+   position: relative;
+   top: -65px;
+   background-color: black;
 }
