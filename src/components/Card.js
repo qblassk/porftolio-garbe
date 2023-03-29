@@ -3,7 +3,7 @@ import { Grid, Typography } from '@mui/material';
 
 const cardImg = (props) => {
    return (
-      <Grid item xs={5} align="center">
+      <Grid item xs={6} align="center">
          <img src={props.content.img} alt="Words" />
       </Grid>
    );
@@ -11,31 +11,26 @@ const cardImg = (props) => {
 
 const cardText = (props) => {
    return (
-      <Grid item xs={5}>
-         <Grid container direction="column" justifyContent="center" alignItems="center" spacing={3}>
-            <Grid item>
-               <Typography variant="h6" align="center" color="#b3b3b3">
+      <Grid item xs={6}>
+         <Grid container direction="column" justifyContent="center" alignItems="center" spacing={'1.1vw'}>
+            <Grid item className="grid-text">
+               <Typography variant="h6" align="center" color="#4d4d4d" fontSize="1.6vw">
                   {props.content.title}
                </Typography>
             </Grid>
-            <Grid item>
-               <Typography variant="body1" align="center" color="#b3b3b3">
+            <Grid item className="grid-text">
+               <Typography variant="body1" align="center" color="#499e7e" fontSize="1.4vw">
                   <b>{props.content.subtitle}</b>
                </Typography>
             </Grid>
-            <Grid item>
-               <Typography variant="body1" align="center" color="#b3b3b3">
+            <Grid item className="grid-text">
+               <Typography variant="body1" align="center" color="#4d4d4d" fontSize="1.2vw">
                   {props.content.descriptionA}
                </Typography>
             </Grid>
-            <Grid item>
-               <Typography variant="body1" align="center" color="secondary">
+            <Grid item className="grid-text">
+               <Typography variant="body1" align="center" color="#499e7e" fontSize="1.2vw">
                   <i>{props.content.descriptionB}</i>
-               </Typography>
-            </Grid>
-            <Grid item>
-               <Typography variant="body1" align="center" color="#b3b3b3">
-                  {props.content.descriptionC}
                </Typography>
             </Grid>
          </Grid>

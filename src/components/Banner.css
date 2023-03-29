@@ -26,3 +26,23 @@
    font-size: 10vw;
    font-weight: 700;
 }
+
+/* @media (min-width: 1920px) {
+}
+
+@media (max-width: 1270px) {
+}
+
+@media (max-width: 761px) {
+   .grid-text h6 {
+      font-size: 1.6vw;
+   }
+
+   .body-text {
+      font-size: 1.2vw;
+   }
+}
+
+@media (max-width: 644px) {
+}
+ */

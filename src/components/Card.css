@@ -1,9 +1,16 @@
-img {
-   width: 50vw;
-}
-
 .grid-main {
    position: relative;
    top: -65px;
-   background-color: black;
+   height: 31vw;
+   background-color: #e0e0e0;
+   margin-top: 8vh;
+}
+
+.grid-main img {
+   height: 31vw;
+   width: 100%;
+}
+
+.grid-text {
+   width: 40vw;
 }
