@@ -1,0 +1,17 @@
+.footer-container {
+   display: flex;
+   background-color: #e0e0e0;
+   height: 5vw;
+}
+
+.footer-container p {
+   flex-grow: 1;
+   padding-left: 1vw;
+   padding-top: 1.2vw;
+}
+
+.footer-container img {
+   height: 4vw;
+   padding-right: 1vw;
+   padding-top: 0.5vw;
+}

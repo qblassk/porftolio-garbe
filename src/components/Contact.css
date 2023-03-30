@@ -1,0 +1,9 @@
+.contact-container {
+   height: 30vw;
+   background-color: black;
+   text-align: center;
+}
+
+.contact-container p {
+   color: #e0e0e0;
+}
