@@ -1,5 +1,5 @@
 import './App.css';
-import { HideAppBar, Banner, Card, Footer, Contact, content } from './components';
+import { HideAppBar, Banner, Card, About, Contact, Footer, content } from './components';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { primary, secondary } from './styles/colors';
 
@@ -27,6 +27,7 @@ function App() {
             {content.map((item, index) => (
                <Card imgRight={index % 2 === 0} content={item} />
             ))}
+            <About />
             <Contact />
             <Footer />
          </ThemeProvider>

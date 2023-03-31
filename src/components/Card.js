@@ -40,7 +40,7 @@ const cardText = (props) => {
 
 const ImgRight = (props) => {
    return (
-      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center">
+      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center" id="projects">
          {cardText(props)}
          {cardImg(props)}
       </Grid>
@@ -49,7 +49,7 @@ const ImgRight = (props) => {
 
 const ImgLeft = (props) => {
    return (
-      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center">
+      <Grid container className="grid-main" direction="row" justifyContent="center" alignItems="center" id="projects">
          {cardImg(props)}
          {cardText(props)}
       </Grid>
